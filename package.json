@@ -1,0 +1,28 @@
+{
+  "name": "blogv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "dompurify": "^2.0.8",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jsdom": "^16.2.1",
+    "marked": "^0.8.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.4",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
